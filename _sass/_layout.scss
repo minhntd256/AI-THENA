@@ -45,9 +45,9 @@ body.sticky-bottom-footer {
     border-radius: 8px; // nếu muốn bo góc nhẹ
   }
 
-  // .more-info {
-  //   flex: 1; // phần text chiếm hết phần còn lại
-  // }
+  .more-info {
+    flex: 1; // phần text chiếm hết phần còn lại
+  }
 }
 // TODO: redefine content layout.
 
