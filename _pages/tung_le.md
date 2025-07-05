@@ -2,15 +2,15 @@
 
 ###### Research topics
 
-* Xử lý ngôn ngữ tự nhiên (Natural Language Processing)
-* Học máy đa phương thức (Multi-modal Machine Comprehension)
-* Học sâu (Deep learning)
+- Xử lý ngôn ngữ tự nhiên (Natural Language Processing)
+- Học máy đa phương thức (Multi-modal Machine Comprehension)
+- Học sâu (Deep learning)
 
 ###### Teaching subjects
 
-* Học sâu
-* Xử lý ngôn ngữ tự nhiên nâng cao
-* Khai thác và xử lý dữ liệu văn bản
-* Nhập môn ngôn ngữ học thống kê và ứng dụng
+- Học sâu
+- Xử lý ngôn ngữ tự nhiên nâng cao
+- Khai thác và xử lý dữ liệu văn bản
+- Nhập môn ngôn ngữ học thống kê và ứng dụng
 
 **Contact Info:** lttung@fit.hcmus.edu.vn

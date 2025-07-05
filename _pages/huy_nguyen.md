@@ -2,14 +2,14 @@
 
 ###### Research topics
 
-* Xử lý ngôn ngữ tự nhiên (Natural Language Processing)
-* Học sâu (Deep learning)
+- Xử lý ngôn ngữ tự nhiên (Natural Language Processing)
+- Học sâu (Deep learning)
 
 ###### Teaching subjects
 
-* Hệ thống thông minh
-* Phân tích dữ liệu thông minh
-* Máy học
-* Khoa học dữ liệu web
+- Hệ thống thông minh
+- Phân tích dữ liệu thông minh
+- Máy học
+- Khoa học dữ liệu web
 
 **Contact Info:** ntienhuy@fit.hcmus.edu.vn
