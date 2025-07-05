@@ -11,5 +11,3 @@
 - Phân tích dữ liệu thông minh
 - Máy học
 - Khoa học dữ liệu web
-
-**Contact Info:** ntienhuy@fit.hcmus.edu.vn

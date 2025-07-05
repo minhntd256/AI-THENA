@@ -12,5 +12,3 @@
 - Xử lý ngôn ngữ tự nhiên nâng cao
 - Khai thác và xử lý dữ liệu văn bản
 - Nhập môn ngôn ngữ học thống kê và ứng dụng
-
-**Contact Info:** lttung@fit.hcmus.edu.vn

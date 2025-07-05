@@ -14,15 +14,11 @@ profiles:
     content: huy_nguyen.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Contact Info: ntienhuy@fit.hcmus.edu.vn</p>
   - align: left
     image: tung_le.jpg
     content: tung_le.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Contact Info: lttung@fit.hcmus.edu.vn</p>
 ---

@@ -34,18 +34,32 @@ body.sticky-bottom-footer {
 // Profile
 .profile {
   display: flex;
-  align-items: flex-start; // hoặc center nếu muốn canh giữa theo chiều dọc
-  gap: 20px; // khoảng cách giữa ảnh và text
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
 
-  img {
-    max-width: 200px; // hoặc size bạn muốn
-    width: 100%;
-    height: auto;
-    border-radius: 8px; // nếu muốn bo góc nhẹ
+  &.align-right {
+    flex-direction: row-reverse;
   }
 
-  .more-info {
-    flex: 1; // phần text chiếm hết phần còn lại
+  .profile-image {
+    flex: 0 0 200px;
+    max-width: 200px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .more-info {
+      margin-top: 10px;
+    }
+  }
+
+  .profile-text {
+    flex: 1;
+    min-width: 250px;
   }
 }
 // TODO: redefine content layout.
