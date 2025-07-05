@@ -33,11 +33,21 @@ body.sticky-bottom-footer {
 
 // Profile
 .profile {
+  display: flex;
+  align-items: flex-start; // hoặc center nếu muốn canh giữa theo chiều dọc
+  gap: 20px; // khoảng cách giữa ảnh và text
+
   img {
-    width: 80%;
+    max-width: 200px; // hoặc size bạn muốn
+    width: 100%;
+    height: auto;
+    border-radius: 8px; // nếu muốn bo góc nhẹ
+  }
+
+  .more-info {
+    flex: 1; // phần text chiếm hết phần còn lại
   }
 }
-
 // TODO: redefine content layout.
 
 /******************************************************************************
