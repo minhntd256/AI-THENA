@@ -2,7 +2,7 @@
  * Content
  ******************************************************************************/
 
-body {
+ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
@@ -32,23 +32,12 @@ body.sticky-bottom-footer {
 }
 
 // Profile
-// Profile
 .profile {
-  display: flex;
-  align-items: flex-start; // hoặc center nếu muốn canh giữa theo chiều dọc
-  gap: 20px; // khoảng cách giữa ảnh và text
-
   img {
-    max-width: 200px; // hoặc size bạn muốn
-    width: 100%;
-    height: auto;
-    border-radius: 8px; // nếu muốn bo góc nhẹ
-  }
-
-  .more-info {
-    flex: 1; // phần text chiếm hết phần còn lại
+    width: 80%;
   }
 }
+
 // TODO: redefine content layout.
 
 /******************************************************************************
