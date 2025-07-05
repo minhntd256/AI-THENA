@@ -42,7 +42,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/AI-THENA/people/";
+            window.location.href = "/AI-THENA/members/";
           },
         },{id: "post-a-post-with-plotly-js",
         
