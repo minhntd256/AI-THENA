@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: /assets/img/logo.jpeg
+  image: logo.jpeg
   image_circular: false # crops the image to make it circular
   more_info:
 
