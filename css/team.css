@@ -404,6 +404,22 @@
     margin-bottom: 0.3rem;
 }
 
+/* Fix for opportunity card description text alignment */
+.cta-section .opportunity-card p {
+    text-align: justify;
+}
+
+/* Fix to align all "Learn More" links at the same position */
+.cta-section .opportunity-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cta-section .opportunity-card .opportunity-link {
+    margin-top: auto;
+    padding-top: 1rem;
+}
 /* Hide empty sections */
 .content-section:empty,
 .content-section:has(.team-grid:empty),
@@ -491,5 +507,88 @@
     
     .team-member .description {
         font-size: 0.9rem;
+    }
+}
+
+/* CTA Buttons - ADD THIS TO YOUR team.css */
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white !important;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+    font-size: 1rem;
+    text-align: center;
+    min-width: 180px;
+}
+
+.cta-button:hover {
+    background: linear-gradient(45deg, #5a6fd8, #6a42a0);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    color: white !important;
+}
+
+.cta-button-outline {
+    display: inline-block;
+    background: transparent;
+    color: #667eea !important;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    border: 2px solid #667eea;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    text-align: center;
+    min-width: 180px;
+}
+
+.cta-button-outline:hover {
+    background: #667eea;
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+/* Opportunity link styling */
+.opportunity-link {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.opportunity-link:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+/* Responsive CTA buttons */
+@media (max-width: 768px) {
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-button,
+    .cta-button-outline {
+        width: 100%;
+        max-width: 280px;
     }
 }

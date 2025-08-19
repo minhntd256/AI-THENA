@@ -71,9 +71,7 @@ const CONFIG_RESEARCH = {
                 "endDate": "2023-05",
                 "fundingSource": "Ho Chi Minh City University of Science, VNU-HCM",
                 "principalInvestigator": "Principal Investigator",
-                "outcomes": [
-                    "Excellent"
-                ]
+                
             },
             {
                 "id": "2",
@@ -85,9 +83,7 @@ const CONFIG_RESEARCH = {
                 "endDate": "2024-06",
                 "fundingSource": "Ho Chi Minh City University of Science, VNU-HCM",
                 "principalInvestigator": "Principal Investigator",
-                "outcomes": [
-                    "Excellent"
-                ]
+                
             },
             {
                 "id": "3",
@@ -99,9 +95,7 @@ const CONFIG_RESEARCH = {
                 "endDate": "2025-01",
                 "fundingSource": "Ho Chi Minh City University of Science, VNU-HCM",
                 "principalInvestigator": "Team Member",
-                "outcomes": [
-                    "Completed"
-                ]
+              
             },
             {
                 "id": "4",
@@ -113,9 +107,7 @@ const CONFIG_RESEARCH = {
                 "endDate": "2025-07",
                 "fundingSource": "Ho Chi Minh City University of Science, VNU-HCM",
                 "principalInvestigator": "Principal Investigator",
-                "outcomes": [
-                    "Excellent"
-                ]
+                
             },
             {
                 "id": "5",
