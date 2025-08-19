@@ -70,7 +70,7 @@ const CONFIG_RESEARCH = {
                 "startDate": "2022-05",
                 "endDate": "2023-05",
                 "fundingSource": "Ho Chi Minh City University of Science, VNU-HCM",
-                "principalInvestigator": "Principal Investigator",
+                "principalInvestigator": "Le Thanh Tung",
                 
             },
             {
@@ -82,7 +82,7 @@ const CONFIG_RESEARCH = {
                 "startDate": "2023-06",
                 "endDate": "2024-06",
                 "fundingSource": "Ho Chi Minh City University of Science, VNU-HCM",
-                "principalInvestigator": "Principal Investigator",
+                "principalInvestigator": "Le Thanh Tung",
                 
             },
             {
@@ -94,7 +94,7 @@ const CONFIG_RESEARCH = {
                 "startDate": "2022-11",
                 "endDate": "2025-01",
                 "fundingSource": "Ho Chi Minh City University of Science, VNU-HCM",
-                "principalInvestigator": "Team Member",
+                "principalInvestigator": "Nguyen Tien Huy",
               
             },
             {
@@ -106,7 +106,7 @@ const CONFIG_RESEARCH = {
                 "startDate": "2024-07",
                 "endDate": "2025-07",
                 "fundingSource": "Ho Chi Minh City University of Science, VNU-HCM",
-                "principalInvestigator": "Principal Investigator",
+                "principalInvestigator": "Le Thanh Tung",
                 
             },
             {
@@ -118,7 +118,7 @@ const CONFIG_RESEARCH = {
                 "startDate": "2025-02",
                 "endDate": "2027-02",
                 "fundingSource": "Vietnam National University, Ho Chi Minh City",
-                "principalInvestigator": "Principal Investigator"
+                "principalInvestigator": "Le Thanh Tung"
             },
             {
                 "id": "6",
@@ -129,7 +129,7 @@ const CONFIG_RESEARCH = {
                 "startDate": "2025-02",
                 "endDate": "2027-02",
                 "fundingSource": "Vietnam National University, Ho Chi Minh City",
-                "principalInvestigator": "Team Member"
+                "principalInvestigator": "Nguyen Tien Huy"
             },
             {
                 "id": "7",
@@ -140,7 +140,7 @@ const CONFIG_RESEARCH = {
                 "startDate": "2024-08",
                 "endDate": "2026-08",
                 "fundingSource": "Asian Office of Aerospace Research and Development",
-                "principalInvestigator": "Team Member"
+                "principalInvestigator": "Nguyen Tien Huy"
             }
         ],
 

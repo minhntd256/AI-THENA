@@ -147,7 +147,7 @@ const CONFIG_TEAM = {
         {
             id: "ntienhuy",
             name: "Dr. Nguyen Tien Huy",
-            role: "Key Member",
+            role: "Leader",
             initials: "",
             image: "images/teams/huy_nguyen.jpg",
             email: "ntienhuy@fit.hcmus.edu.vn",
