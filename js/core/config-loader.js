@@ -91,14 +91,23 @@ const ConfigLoader = {
         const areas = this.get('research.areas', []);
         stats.researchAreas = areas.length;
 
-        // Team members
+        // Team members - updated to match new config structure
         let teamCount = 0;
         const team = this.get('team', {});
-        ['faculty', 'postdocs', 'phdStudents', 'mastersStudents', 'staff', 'visiting'].forEach(group => {
+
+        // Count active members from each group
+        ['advisors', 'members', 'phdStudents', 'masterStudents', 'undergraduates'].forEach(group => {
             if (Array.isArray(team[group])) {
-                teamCount += team[group].length;
+                // Only count members with status "active" or without status field
+                const activeMembers = team[group].filter(member =>
+                    (member.id && member.id.trim() !== '') &&
+                    (member.name && member.name.trim() !== '') &&
+                    (!member.status || member.status === 'active' || member.id)
+                );
+                teamCount += activeMembers.length;
             }
         });
+
         stats.teamMembers = teamCount;
 
         // Publications
